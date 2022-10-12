@@ -12,9 +12,9 @@
                     </div>
                     <div class="card-body">
                         <p>Total products = {{Cart::content()->count()}}</p>
-                        <p>Product Cost = {{Cart::total()}} TK</p>
-                        <p>Shipping cost = 0.00 TK</p>
-                        <p><strong>Total cost = {{Cart::total()}} TK</strong></p>
+                        <p>Product Cost = {{Cart::total()}} NGN</p>
+                        <p>Shipping cost = 0.00 NGN</p>
+                        <p><strong>Total cost = {{Cart::total()}} NGN</strong></p>
                     </div>
                 </div>
             </div>

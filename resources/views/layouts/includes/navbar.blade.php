@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-light p-1 border-bottom" id="nav-top">
     <div class="container">
-        <a href="{{route('bookshop.home')}}" class="logo-img"><img src="{{asset('/')}}assets/img/logo.png" alt=""></a>
+        <!-- <a href="{{route('bookshop.home')}}" class="logo-img"><img src="{{asset('/')}}assets/img/logo.png" alt=""></a> -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-collapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -15,9 +15,9 @@
                 <li class="nav-item px-2">
                     <a href="{{route('discount-books')}}" class="nav-link">Discount's Book</a>
                 </li>
-                <li class="nav-item px-2">
+                <!-- <li class="nav-item px-2">
                     <a href="#" class="nav-link">About</a>
-                </li>
+                </li> -->
             </ul>
             <ul class="navbar-nav ml-auto">
                 @if(Auth::check() == false)

@@ -57,10 +57,12 @@ class User extends Authenticatable
     */
     public function getImageUrlAttribute($value)
     {
+        // return asset('/').'public/assets/img/'.$this->image->file;
         return asset('/').'assets/img/'.$this->image->file;
     }
     public function getDefaultImgAttribute($value)
     {
+        // return asset('/').'public/assets/img/'.'user-placeholder 3.png';
         return asset('/').'assets/img/'.'user-placeholder 3.png';
     }
 

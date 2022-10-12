@@ -54,9 +54,9 @@
                                                     </div>
                                                     <div class="pbook-price mb-3">
                                                         @if($book->discount_rate)
-                                                            <span class="line-through mr-3">{{$book->init_price}} TK</span>
+                                                            <span class="line-through mr-3">{{$book->init_price}} NGN</span>
                                                         @endif
-                                                        <span class=""><strong>{{$book->price}} TK</strong></span>
+                                                        <span class=""><strong>{{$book->price}} NGN</strong></span>
                                                     </div>
                                                 </div>
                                             </div>

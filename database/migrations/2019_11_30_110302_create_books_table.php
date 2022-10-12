@@ -28,9 +28,9 @@ class CreateBooksTable extends Migration
             $table->softDeletes();
             $table->timestamps();
 
-            $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
-            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
-            $table->foreign('image_id')->references('id')->on('images')->onDelete('cascade');
+            // $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
+            // $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+            // $table->foreign('image_id')->references('id')->on('images')->onDelete('cascade');
         });
     }
 

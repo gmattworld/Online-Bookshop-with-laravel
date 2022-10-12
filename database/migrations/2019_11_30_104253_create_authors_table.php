@@ -21,7 +21,7 @@ class CreateAuthorsTable extends Migration
             $table->text('bio')->nullable();
             $table->timestamps();
 
-            $table->foreign('image_id')->references('id')->on('images')->onDelete('cascade');
+            // $table->foreign('image_id')->references('id')->on('images')->onDelete('cascade');
         });
     }
 

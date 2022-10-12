@@ -2,10 +2,10 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('bookshop.home')}}">
-        <div class="sidebar-brand-icon">
+        <!-- <div class="sidebar-brand-icon">
             <img src="{{asset('/')}}admin/img/logo.png" width="30" alt="">
-        </div>
-        <div class="sidebar-brand-text mx-3">Book shop</div>
+        </div> -->
+        <div class="sidebar-brand-text mx-3"><b class="text-danger">My</b>Libry</div>
     </a>
 
     <!-- Divider -->
@@ -74,18 +74,18 @@
             <span>Reviews</span></a>
     </li>
     <!-- Nav Item - Charts -->
-    <li class="nav-item">
+    <!-- <li class="nav-item">
         <a class="nav-link" href="#">
             <i class="fas fa-fw fa-envelope"></i>
             <span>Messages</span></a>
-    </li>
+    </li> -->
 
     <!-- Nav Item - Tables -->
-    <li class="nav-item active">
+    <!-- <li class="nav-item active">
         <a class="nav-link" href="#">
             <i class="fas fa-fw fa-table"></i>
             <span>Accounts</span></a>
-    </li>
+    </li> -->
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">

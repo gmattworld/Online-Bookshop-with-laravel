@@ -27,10 +27,10 @@ class Author extends Model
      */
     public function getImageUrlAttribute($value)
     {
-        return asset('/').'assets/img/'.$this->image->file;
+        return asset('/').'public/assets/img/'.$this->image->file;
     }
     public function getDefaultImgAttribute($value)
     {
-        return asset('/').'assets/img/'.'user-placeholder.png';
+        return asset('/').'public/assets/img/'.'user-placeholder.png';
     }
 }

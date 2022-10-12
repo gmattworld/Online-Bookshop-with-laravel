@@ -38,11 +38,11 @@ Bookshop - Book details
                                         <div class="book-price mb-2">
                                             <span class="mr-1">Price</span>
                                             @if($book->discount_rate)
-                                                <span></span><strong class="line-through">{{$book->init_price}} TK</strong>
+                                                <span></span><strong class="line-through">{{$book->init_price}} NGN</strong>
                                             @endif
-                                                <span>now</span><strong> {{$book->price}} TK</strong>
+                                                <span>now</span><strong> {{$book->price}} NGN</strong>
                                             @if($book->discount_rate)
-                                                <div><strong class="text-danger">Save {{$book->init_price - $book->price}} TK</strong></div>
+                                                <div><strong class="text-danger">Save {{$book->init_price - $book->price}} NGN</strong></div>
                                             @endif
                                         </div>
                                         <div class="book-category mb-2 py-1 d-flex flex-row border-top border-bottom">
